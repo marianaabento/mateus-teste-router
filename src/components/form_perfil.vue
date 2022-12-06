@@ -2,7 +2,7 @@
   <div>
     <form @submit="save_perfil">
       <div class="hidden" :class="{ 'py-2 px-4 bg-green-600': key_form }">
-        Formulario enviado com sucesso
+        Formulário enviado com sucesso
       </div>
       <div class="mb-6">
         <label for="name" class="block mb-2 font-medium">Nome de usuário</label>

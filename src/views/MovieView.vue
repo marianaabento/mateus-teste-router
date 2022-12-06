@@ -91,7 +91,7 @@ export default {
           <section class="flex-col xl:block gap-10 mt-4">
             <div>
               <h2 class="text-xl py-4">
-                <span class="font-bold">Genêros: </span>
+                <span class="font-bold">Gêneros: </span>
                 <span class="genres">
                   <span v-for="genre in movie.genres">
                     <span

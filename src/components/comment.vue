@@ -4,7 +4,7 @@
       {{ comment.comment }}
     </p>
     <h3 class="mt-2">
-      Author:
+      Autor:
       <span class="text-cyan-700 underline cursor-pointer">{{
         author.username
       }}</span>

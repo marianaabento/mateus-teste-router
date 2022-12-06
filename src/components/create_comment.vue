@@ -1,14 +1,14 @@
 <template>
   <div>
     <label for="message" class="block mb-2 text-lg font-medium text-gray-900">
-      Deixe sua critica aqui:
+      Deixe sua crítica aqui:
     </label>
     <textarea
       id="message"
       rows="4"
       class="block p-2.5 w-full text-base text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-cyan-500 focus:border-cyan-500"
       v-model="message"
-      placeholder="Sua Mensagem..."
+      placeholder="Sua crítica..."
     ></textarea>
     <button
       @click="createComment()"

@@ -22,7 +22,7 @@ import FormLogin from '../../components/form_login.vue';
         <hr class="w-full border-top my-5">
         <div class="pb-12 pt-0 text-center">
             <span class="block">
-                Entrar tambem por:
+                Entrar também por:
             </span>
             <a href="http://google.com" target="_blank">
                 <img src="../../assets/img/google_icon.png" class="mx-auto pt-6 inline-block" alt="">

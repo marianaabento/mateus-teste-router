@@ -38,7 +38,7 @@ export default {
           id="name"
           v-model="username"
           class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-          placeholder=""
+          placeholder="Seu nome"
           required="true"
         />
       </div>
@@ -94,7 +94,7 @@ export default {
         class="text-white hover:bg-gray-900 bg-primary transition-all font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center"
         @click="createUser"
       >
-        Entrar
+        Cadastrar
       </button>
     </div>
   </div>
